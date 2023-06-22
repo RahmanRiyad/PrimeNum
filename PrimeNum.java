@@ -7,12 +7,12 @@ public class PrimeNum {
   
    public static void main(String[] args) {  
        Scanner s = new Scanner(System.in);  
-       System.out.print("Enter a number : ");  
+       System.out.print("Please Enter a number : ");  
        int n = s.nextInt();  
        if (isPrime(n)) {  
-           System.out.println(n + " prime number");  
+           System.out.println(n + " It is a prime number");  
        } else {  
-           System.out.println(n + "not a prime number");  
+           System.out.println(n + "It is not a prime number");  
        }  
    }  
   
