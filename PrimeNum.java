@@ -11,8 +11,10 @@ public class PrimeNum {
        int n = s.nextInt();  
        if (isPrime(n)) {  
            System.out.println(n + " It is a prime number");  
+           System.out.println("     ");
        } else {  
            System.out.println(n + "It is not a prime number");  
+           System.out.println(" ");
        }  
    }  
   
